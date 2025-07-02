@@ -1,0 +1,63 @@
+header span {
+    font-size: 5rem;
+    color: blueviolet;  
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+nav {
+    padding: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+  }
+
+nav ul li a:hover {
+    background-color: rgb(84, 0, 162);
+  }
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+}
+footer p {
+    color: white;
+}
+
+main{ 
+    h1{
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    }
+    h2{
+        font-family: "Funnel Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: blueviolet;
+    }
+}
+
+body main dl{
+    background-color: gray;
+    padding: 25px;
+}
