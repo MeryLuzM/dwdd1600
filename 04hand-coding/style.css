@@ -39,7 +39,6 @@ footer p {
     color: white;
 }
 
-main{ 
     h1{
     font-family: "Twinkle Star", cursive;
     font-weight: 400;
@@ -52,7 +51,7 @@ main{
         font-style: normal;
         color: blueviolet;
     }
-}
+
 
 main dl{
     background-color: gray;
