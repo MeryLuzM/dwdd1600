@@ -6,9 +6,6 @@ header span {
     font-style: normal;  
 }
 
-nav {
-    padding: auto;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +54,7 @@ main{
     }
 }
 
-body main dl{
+main dl{
     background-color: gray;
     padding: 25px;
 }
