@@ -1,0 +1,111 @@
+header span {
+    font-size: 5rem;
+    color: blueviolet;  
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+/* nav stuff goes here */
+nav {
+  background-color: blueviolet;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0 2vw;
+  margin: 0;
+  display: flex;
+}
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  display: block;
+  padding: .83rem 2rem;
+}
+nav li.active a {
+  background-color: black;
+      color: blueviolet;
+}
+nav a:hover {
+  color: white;
+  background-color: rgb(54, 0, 105);
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+footer p {
+    color: white;
+}
+
+    h1{
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    }
+    h2{
+        font-family: "Funnel Display", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: blueviolet;
+    }
+
+
+main dl{
+    background-color: gray;
+    padding: 25px;
+}
+
+main address {
+  font-style: normal;
+  background-color: rgb(131, 92, 167);
+  padding: 1rem;
+  margin-bottom: 20px;
+  width: 12.5rem;
+  border: 1px solid #024873;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+}
+
+div.gallery figure {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid blueviolet;
+  border-radius: 15px;
+}
+
+figure figcaption {
+  text-align: center;
+  font-size: .75rem;
+}
+/* Gallery Stuff */
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+ gap: 10px 20px;
+}
+div.gallery figure {
+  margin: 0;
+}
+div.gallery figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #3d00b6;
+}
+
+figure.wrapped {
+  margin: 0 0 0 10px;
+  width: 40%;
+  float: right;
+}
+figure.wrapped img {
+  width:100%;
+  height: auto;
+}
