@@ -124,6 +124,8 @@ figure.wrapped img {
   width: 20rem;
   background-color: rgba(138, 43, 226, 0.5);
   color: white;
+  font-family: "Twinkle", cursive;
+
 }
 
 .myform fieldset {
@@ -141,11 +143,11 @@ figure.wrapped img {
   margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform[type=email], .myform textarea {
   display: block
 }
 
-.myform [type=text], .myform [type=tel], .myform select, .myform textarea {
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
   border: solid 1px #ffffff;
   padding: .3rem;
   width: 250px;
