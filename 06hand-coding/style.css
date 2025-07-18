@@ -176,3 +176,34 @@ figure.wrapped img {
     font-size: 16px;
     margin: 1rem 0 1rem 1vw;
 }
+
+
+/*test*/
+.myform input[type="text"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid blueviolet;
+}
+
+.myform input[type="tel"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid blueviolet;
+}
+
+.myform input[type="email"] {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid blueviolet;
+}
+
+.myform input[type="submit"] {
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.myform input[type="submit"]:hover,
+.myform input[type="submit"]:focus {
+  background-color: rgb(54, 0, 105);
+}
