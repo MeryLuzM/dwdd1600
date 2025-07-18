@@ -143,35 +143,17 @@ figure.wrapped img {
   margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type="text"], .myform [type="tel"], .myform[type="email"], .myform textarea {
-  display: block
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+  display: block;
 }
 
-.myform input[type="text"], .myform select, .myform textarea {
-  border: solid 1px #ffffff;
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+  border: solid 1px;
   padding: .3rem;
   width: 250px;
   border-radius: .3rem;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 200;
-}
-
-.myform input[type="tel"] {
-  border: solid 1px #ffffff;
-  padding: .3rem;
-  width: 250px;
-  border-radius: .3rem;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 200;
-}
-
-.myform input[type="email"]{
-  border: solid 1px #ffffff;
-  padding: .3rem;
-  width: 250px;
-  border-radius: .3rem;
-  font-family: "Oxygen", sans-serif;
-  font-weight: 200;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .myform textarea {
