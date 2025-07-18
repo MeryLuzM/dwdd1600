@@ -147,7 +147,25 @@ figure.wrapped img {
   display: block
 }
 
-.myform [type="text"], .myform [type="tel"], .myform [type="email"], .myform select, .myform textarea {
+.myform input[type="text"], .myform select, .myform textarea {
+  border: solid 1px #ffffff;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 200;
+}
+
+.myform input[type="tel"] {
+  border: solid 1px #ffffff;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 200;
+}
+
+.myform input[type="email"]{
   border: solid 1px #ffffff;
   padding: .3rem;
   width: 250px;
@@ -160,7 +178,7 @@ figure.wrapped img {
   height: 6rem;
 }
 
-.myform :required {
+.myform : required {
   background-color: rgba(252, 252, 252, 0.1);
 }
 
@@ -171,4 +189,8 @@ figure.wrapped img {
   border-radius: 10px;
   color: white;
   margin: 1rem 0 0 1vw;
+}
+
+main input{
+  font-family: "Oxygen", sans-serif;
 }
