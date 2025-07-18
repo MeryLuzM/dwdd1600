@@ -143,11 +143,11 @@ figure.wrapped img {
   margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform[type=email], .myform textarea {
+.myform label, .myform select, .myform [type="text"], .myform [type="tel"], .myform[type="email"], .myform textarea {
   display: block
 }
 
-.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+.myform [type="text"], .myform [type="tel"], .myform [type="email"], .myform select, .myform textarea {
   border: solid 1px #ffffff;
   padding: .3rem;
   width: 250px;
@@ -171,8 +171,4 @@ figure.wrapped img {
   border-radius: 10px;
   color: white;
   margin: 1rem 0 0 1vw;
-}
-
-main input{
-  font-family: "Oxygen", sans-serif;
 }
