@@ -117,10 +117,10 @@ figure.wrapped img {
 
 /* Form Delivery Page */
 
-.contactbox{
+main{
   margin-top: 1rem;
   margin-left: 2%;
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
   width: 20rem;
   background-color: rgba(138, 43, 226, 0.5);
   color: white;
