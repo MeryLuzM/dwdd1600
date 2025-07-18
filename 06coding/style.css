@@ -122,22 +122,22 @@ main form{
   margin-left: 2%;
   padding: 3rem;
   border-radius: 25px;
-  width: 20rem;
+  width: 24rem;
   background-color: rgba(138, 43, 226, 0.5);
   color: white;
   font-family: "Oxygen", sans-serif;
 
 }
 
-.myform fieldset {
+fieldset {
   background-color: rgba(255,255,255,0.1);
   border: 2px solid blueviolet;
   border-radius: 15px;
-  padding: 1rem;
+  padding: auto 1rem;
   margin-bottom: 1.5rem;
 }
 
-.myform legend {
+legend {
   font-size: 1rem;
   font-weight: bold;
   color: white;
@@ -145,6 +145,7 @@ main form{
   padding: 0.5rem 1rem;
   border-radius: 10px;
   margin-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -167,9 +168,9 @@ main form{
   font-weight: 300;
 }
 
-.myform input[type="text"],
-.myform input[type="tel"],
-.myform input[type="email"] {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
   display: block;
   border: 2px solid blueviolet; /* clearer border */
   padding: .5rem;
