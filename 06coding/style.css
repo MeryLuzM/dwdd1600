@@ -129,14 +129,14 @@ main form{
   font-style: normal;
 }
 
-.myform fieldset {
+fieldset {
   border: 1px solid #737373;
   border-radius: 3px;
   margin-bottom: 1rem;
   color: white;
 }
 
-.myform legend {
+legend {
   color: #ffffff;
   font-size: .8rem;
   font-weight: 700;
