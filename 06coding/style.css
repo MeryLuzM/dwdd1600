@@ -117,10 +117,11 @@ figure.wrapped img {
 
 /* Form Delivery Page */
 
-main{
+main form{
   margin-top: 1rem;
   margin-left: 2%;
-  padding: 1rem 3rem;
+  padding: 3rem;
+  border-radius: 25px;
   width: 20rem;
   background-color: rgba(138, 43, 226, 0.5);
   color: white;
@@ -143,11 +144,13 @@ main{
   margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+/*--------*/
+.myform label {
   display: block;
 }
 
-.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+.myform select {
+  display: block;
   border: solid 1px;
   padding: .3rem;
   width: 250px;
@@ -155,6 +158,48 @@ main{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+
+.myform input[type="text"] {
+  display: block;
+  border: solid 1px;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.myform input[type="tel"] {
+  display: block;
+  border: solid 1px;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.myform input[type="email"] {
+  display: block;
+  border: solid 1px;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.myform textarea {
+  display: block;
+  border: solid 1px;
+  padding: .3rem;
+  width: 250px;
+  border-radius: .3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* -------*/
 
 .myform textarea {
   height: 6rem;
