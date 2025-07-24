@@ -1,0 +1,283 @@
+/* prevent problems with different browsers*/
+* {box-sizing: border-box;}
+
+header, nav, main, footer {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  background-color: blueviolet;
+  padding-left: 20px;
+}
+header h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 30px;
+}
+header p{
+  color: white;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+}
+
+/* nav stuff goes here */
+/* small screens */
+@media only screen and (max-width: 600px) {
+  nav ul {
+      margin: 0;
+      padding: 0;
+  }
+  nav a {
+      display: block;
+      text-align: center;
+      padding: .8rem;
+      color: blueviolet;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-bottom: solid 1px #aaa;
+  }
+  nav .active a {
+      background-color: blueviolet;
+      color: white;
+       background-image: linear-gradient(blueviolet,rgb(219, 219, 219));
+  }
+  
+} 
+/*end of the media query*/
+
+/*WIDE Screens*/
+@media only screen and (min-width: 601px) {
+  nav {
+    background-color: blueviolet;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+  }
+  nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+  }
+  nav .active a {
+    background-color: white;
+    border: 1px solid blueviolet;
+    color: white;
+    background-image: linear-gradient(blueviolet,rgb(219, 219, 219));
+
+  }
+  nav a:hover {
+    color: white;
+    background-color: rgb(54, 0, 105);
+  }
+  
+  
+  
+} /*end of the media query*/
+
+
+/* Footer */
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+footer p {
+    color: white;
+}
+
+    h1{
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: blueviolet;
+    }
+    h2{
+        font-family: "Funnel Display", sans-serif;
+        font-style: normal;
+        color: blueviolet;
+    }
+
+
+main dl{
+    background-color: gray;
+    padding: 25px;
+}
+
+main address {
+  font-style: normal;
+  background-color: rgb(131, 92, 167);
+  padding: 1rem;
+  margin-bottom: 20px;
+  width: 12.5rem;
+  border: 1px solid #024873;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+}
+
+div.gallery figure {
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: blueviolet;
+}
+div.gallery figure:hover {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.616);
+
+}
+
+div.gallery img{
+  border-radius: 15px;
+}
+
+
+figure figcaption {
+  text-align: center;
+  font-size: .75rem;
+}
+/* Gallery Stuff */
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+ gap: 40px 20px;
+}
+div.gallery figure {
+  margin: 0;
+}
+div.gallery figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+
+figure.wrapped {
+  margin: 0 0 0 10px;
+  width: 40%;
+  float: right;
+}
+figure.wrapped img {
+  width:100%;
+  height: auto;
+}
+
+
+/* Form Delivery Page */
+
+main form{
+  margin-top: 1rem;
+  margin-left: 4rem;
+  padding: 3rem;
+  border-radius: 25px;
+  width: 80%;
+  background-color: rgba(138, 43, 226, 0.5);
+  color: white;
+  font-family: "Oxygen", sans-serif;
+  font-style: normal;
+}
+
+fieldset {
+  border: 1px solid #737373;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+legend {
+  color: #ffffff;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.myform label {
+  margin: .5rem;
+}
+
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform [type=email], .myform textarea {
+  display: block;
+}
+
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+  border: solid 1px;
+  padding: .3rem;
+  width: 100%;
+  border-radius: .3rem;
+    font-family: "Oxygen", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.myform textarea {
+  height: 6rem;
+}
+
+.myform :required {
+  background-color: rgba(156,51,53,0.2);
+}
+
+
+/* -------*/
+
+.myform textarea {
+  height: 6rem;
+}
+
+.myform :required {
+  background-color: rgba(252, 252, 252, 0.1);
+}
+
+.myform input[type="submit"] {
+  background-color: blueviolet;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.myform input[type="submit"]:hover,
+.myform input[type="submit"]:focus {
+  background-color: indigo;
+}
+
+table.pricetable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+table.pricetable th{
+  background-color: blueviolet;
+  color: white;
+  padding: .5rem 2vw;
+}
+table.pricetable td {
+  color: #000000;
+  padding: .4rem 2vw;
+}
+table.pricetable tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+table.pricetable tr:hover {
+  background-color: rgba(141, 61, 165, 0.669);
+}
