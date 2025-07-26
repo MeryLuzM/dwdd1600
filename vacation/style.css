@@ -31,7 +31,6 @@ header p{
     body h1 {
         color: #6d6d2b;
         font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
     }
@@ -167,7 +166,6 @@ header p{
     body h1 {
         color: #6d6d2b;
         font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
     }
@@ -175,7 +173,6 @@ header p{
     nav {
       background-color: #6d6d2b;
       font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
       
